@@ -9,8 +9,10 @@ int main() {
     const char *test1_last = "Garcia";
     const char *test1_pwd = "qrtv?,mp!ltrA0b13rab4ham";
     bool test1 = check_password(test1_first, test1_last, test1_pwd);
+    printf("Test 1: %s\n", test1 ? "Passed" : "Failed");
     assert(test1);
 
+    printf("Hello, World!\n"); // Example output
     printf("Congrats! The first test case is now passing. You should remove the assert statements that you added "
            "to pwd_checker.c because these correspond to the first test case and will not necessarily work for the remaining "
            "test cases!\n\n");
