@@ -10,7 +10,7 @@ Node *create_node(int data) {
     }
     new_node->data = data;
     new_node->next = NULL;
-    return new_node;
+    return new_node;  
 }
 
 /* Frees the list starting at HEAD */
